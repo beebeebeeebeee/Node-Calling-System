@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="column prepare">
+            <div class="banner a">
+                *製作中 Preparing...
+            </div>
+            <div id="prepare">
+                123
+            </div>
+        </div>
+
+        <div class="column ready">
+            <div class="banner b">
+                請取餐 Served
+            </div>
+
+            <div id="ready">
+                456
+            </div>
+        </div>
+
+        <div class="column ads">
+            <div id="ads">
+                <img src="img/ads.png">
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

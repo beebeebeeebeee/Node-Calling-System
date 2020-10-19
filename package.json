@@ -1,0 +1,26 @@
+{
+  "name": "node-calling-system",
+  "version": "1.0.0",
+  "description": "This calling system based on node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "nodemon --ignore 'db.json' main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beebeebeeebeee/Node-Calling-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beebeebeeebeee/Node-Calling-System/issues"
+  },
+  "homepage": "https://github.com/beebeebeeebeee/Node-Calling-System#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "socket.io": "^2.3.0"
+  }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 3vw;
+}
+
+.column {
+    float: left;
+    height: 100vh;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+}
+
+.banner.a {
+    background-color: rgb(112, 112, 112);
+    color: white;
+}
+
+.banner.b {
+    background-color: rgb(255, 251, 20);
+}
+
+.banner.c {
+    background-color: rgb(136, 136, 116);
+}
+
+.prepare {
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+}
+
+#prepare {
+    color: white;
+    font-size: 4vw;
+}
+
+.ready {
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+}
+
+#ready {
+    color: rgb(255, 251, 20);
+    font-size: 4.5vw;
+}
+
+.ads {
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
